@@ -17,8 +17,6 @@ title: LineUpEngine
 email: samuel_gratzl@gmx.at
 description: > # this means to ignore newlines until "baseurl:"
   LineUpEngine is a scalable (multi) table renderer optimized for modern web-browsers
-baseurl: "/lineupengine" # the subpath of your site, e.g. /blog
-url: "https://sgratzl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sgratzl
 
 theme: jekyll-theme-cayman
