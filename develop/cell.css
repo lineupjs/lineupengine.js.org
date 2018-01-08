@@ -1,0 +1,138 @@
+/*! lineupengine - v1.0.0-20180107-214146 - 2018
+* https://sgratzl.github.io/lineupengine/
+* Copyright (c) 2018 Samuel Gratzl; Licensed MIT*/
+
+/**
+ see also animation/index.ts MAX_ANIMATION_TIME
+ */
+/**
+ see also animation/index.ts MAX_ANIMATION_TIME
+ */
+/**
+ * https://github.com/wilsonpage/sass-import-once/blob/master/_sass-import-once.scss
+ */
+/* Module export mixin
+ * This mixin helps making sure a module is imported once and only once.
+ * @access public
+ * @param {String} $name - Name of exported module
+ * @param {Bool} $warn [true] - Warn when module has been already imported
+ * @require $imported-modules
+ */
+/**
+ see also animation/index.ts MAX_ANIMATION_TIME
+ */
+/**
+ * https://github.com/wilsonpage/sass-import-once/blob/master/_sass-import-once.scss
+ */
+/* Module export mixin
+ * This mixin helps making sure a module is imported once and only once.
+ * @access public
+ * @param {String} $name - Name of exported module
+ * @param {Bool} $warn [true] - Warn when module has been already imported
+ * @require $imported-modules
+ */
+.lineup-engine .loading {
+  background: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEyNCIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDEyNCAzMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgPHN0eWxlPi8qIDwhW0NEQVRBWyAqLwogICAgcmVjdCB7CiAgICAgIGZpbGw6ICNjMWMxYzE7CiAgICB9LyogXV0+ICovCiAgPC9zdHlsZT4KICA8cmVjdCB4PSI1MCIgeT0iMTMiIHdpZHRoPSI0IiBoZWlnaHQ9IjUiIC8+CiAgPHJlY3QgeD0iNjAiIHk9IjUiIHdpZHRoPSI0IiBoZWlnaHQ9IjIxIiAvPgogIDxyZWN0IHg9IjcwIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSIxMyIgLz4KPC9zdmc+Cg==) center contain repeat no-repeat;
+  background-blend-mode: overlay; }
+  .lineup-engine .loading > * {
+    opacity: 0; }
+
+.lineup-engine.animated > header > article > *,
+.lineup-engine.animated > main > article > div > * {
+  transition: opacity 0.5s;
+  opacity: 1; }
+
+.lineup-engine.animated .loading {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEyNCIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDEyNCAzMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgPHN0eWxlPi8qIDwhW0NEQVRBWyAqLwogICAgQGtleWZyYW1lcyBsb2FkIHsKICAgICAgMCUgICB7IHRyYW5zZm9ybTogdHJhbnNsYXRlKDAsMjFweClzY2FsZSgxLDUpOyB9CiAgICAgIDEwMCUgeyB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLDEzcHgpc2NhbGUoMSwyMSk7IH0KICAgIH0KICAgIHJlY3QgewogICAgICBmaWxsOiAjYzFjMWMxOwogICAgICBhbmltYXRpb246IGxvYWQgMC42cyBsaW5lYXIgYWx0ZXJuYXRlIGluZmluaXRlOwogICAgfS8qIF1dPiAqLwogIDwvc3R5bGU+CiAgPHJlY3QgeD0iNTAiIHdpZHRoPSI0IiBoZWlnaHQ9IjEiLz4KICA8cmVjdCB4PSI2MCIgd2lkdGg9IjQiIGhlaWdodD0iMSIgc3R5bGU9ImFuaW1hdGlvbi1kZWxheTogMC4xNXMiLz4KICA8cmVjdCB4PSI3MCIgd2lkdGg9IjQiIGhlaWdodD0iMSIgc3R5bGU9ImFuaW1hdGlvbi1kZWxheTogMC4zcyIvPgo8L3N2Zz4K); }
+
+.lineup-engine > main.le-scrolling {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEyNCIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDEyNCAzMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgPHN0eWxlPi8qIDwhW0NEQVRBWyAqLwogICAgcmVjdCB7CiAgICAgIGZpbGw6ICNjMWMxYzE7CiAgICB9LyogXV0+ICovCiAgPC9zdHlsZT4KICA8cmVjdCB4PSI1MCIgeT0iMTMiIHdpZHRoPSI0IiBoZWlnaHQ9IjUiIC8+CiAgPHJlY3QgeD0iNjAiIHk9IjUiIHdpZHRoPSI0IiBoZWlnaHQ9IjIxIiAvPgogIDxyZWN0IHg9IjcwIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSIxMyIgLz4KPC9zdmc+Cg==), url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEyNCIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDEyNCAzMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgPHN0eWxlPi8qIDwhW0NEQVRBWyAqLwogICAgcmVjdCB7CiAgICAgIGZpbGw6ICNjMWMxYzE7CiAgICB9LyogXV0+ICovCiAgPC9zdHlsZT4KICA8cmVjdCB4PSI1MCIgeT0iMTMiIHdpZHRoPSI0IiBoZWlnaHQ9IjUiIC8+CiAgPHJlY3QgeD0iNjAiIHk9IjUiIHdpZHRoPSI0IiBoZWlnaHQ9IjIxIiAvPgogIDxyZWN0IHg9IjcwIiB5PSI5IiB3aWR0aD0iNCIgaGVpZ2h0PSIxMyIgLz4KPC9zdmc+Cg==);
+  background-repeat: repeat-x;
+  background-position: top 10px left, bottom 30px left;
+  position: relative; }
+
+.lineup-engine article.le-row-animation {
+  /**
+      defaults
+       */
+  /**
+      in case of hiding shift update and show
+       */
+  /**
+      in case of update shift show
+       */
+  /**
+      in case of both update and hide shift show twice
+       */ }
+  .lineup-engine article.le-row-animation > * {
+    transition: all 0.5s linear; }
+    .lineup-engine article.le-row-animation > *[data-animation=show] {
+      transition: all 0.25s linear; }
+    .lineup-engine article.le-row-animation > *[data-animation=hide] {
+      transition: all 0.25s linear; }
+  .lineup-engine article.le-row-animation.le-hide-animation > * {
+    transition: all 0.5s linear 0.3s; }
+    .lineup-engine article.le-row-animation.le-hide-animation > *[data-animation=hide] {
+      transition: all 0.25s linear; }
+    .lineup-engine article.le-row-animation.le-hide-animation > *[data-animation=show] {
+      transition: all 0.25s linear 0.3s; }
+  .lineup-engine article.le-row-animation.le-update-animation > *[data-animation=show] {
+    transition: all 0.25s linear 0.55s; }
+  .lineup-engine article.le-row-animation.le-update-animation.le-hide-animation > *[data-animation=show] {
+    transition: all 0.25s linear 0.85s; }
+
+.lineup-engine {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+  overflow-x: auto; }
+  .lineup-engine > header {
+    flex: 0 0 auto;
+    overflow-x: hidden;
+    margin-bottom: 3px; }
+    .lineup-engine > header > :last-child {
+      margin-right: 5px; }
+  .lineup-engine > main {
+    flex: 1 1 auto;
+    overflow-y: auto; }
+  .lineup-engine > header,
+  .lineup-engine > main {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch; }
+    .lineup-engine > header > *,
+    .lineup-engine > main > * {
+      flex: 0 0 auto; }
+  .lineup-engine > header > article,
+  .lineup-engine > main > article > div {
+    display: grid;
+    grid-auto-columns: 0;
+    grid-template-rows: auto;
+    grid-auto-flow: column;
+    align-items: stretch;
+    justify-items: stretch; }
+    .lineup-engine > header > article > *,
+    .lineup-engine > main > article > div > * {
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      .lineup-engine > header > article > *.frozen,
+      .lineup-engine > main > article > div > *.frozen {
+        position: sticky;
+        left: 0;
+        background-color: white;
+        z-index: 1; }
+  .lineup-engine > main:not(.scrolling) > article > div {
+    /* @include collapsing-row-border($engine_row_hover_width, #eee); */
+    background: white; }
+    .lineup-engine > main:not(.scrolling) > article > div:hover {
+      position: relative;
+      z-index: 2;
+      /* use box-shadow to create collapsing border (@see https://stackoverflow.com/a/28807765) */
+      box-shadow: 2px 0 0 0 #ffa500, 0 2px 0 0 #ffa500, 2px 2px 0 0 #ffa500, 2px 0 0 0 #ffa500 inset, 0 2px 0 0 #ffa500 inset; }
+
+.lineup-multi-engine > header,
+.lineup-multi-engine > main {
+  display: grid; }
