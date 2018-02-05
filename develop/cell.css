@@ -1,4 +1,4 @@
-/*! lineupengine - v1.0.0-20180205-164324 - 2018
+/*! lineupengine - v1.0.0-20180205-213205 - 2018
 * https://sgratzl.github.io/lineupengine/
 * Copyright (c) 2018 Samuel Gratzl; Licensed MIT*/
 
@@ -131,7 +131,7 @@
   .lineup-engine > main:not(.scrolling) > article > div {
     /* @include collapsing-row-border($engine_row_hover_width, #eee); */
     background: white; }
-    .lineup-engine > main:not(.scrolling) > article > div:hover {
+    .lineup-engine > main:not(.scrolling) > article > div.le-highlighted, .lineup-engine > main:not(.scrolling) > article > div:hover {
       position: relative;
       z-index: 2;
       /* use box-shadow to create collapsing border (@see https://stackoverflow.com/a/28807765) */
