@@ -1,4 +1,4 @@
-/*! lineupengine - v1.0.0-20180123-233714 - 2018
+/*! lineupengine - v1.0.0-20180205-164324 - 2018
 * https://sgratzl.github.io/lineupengine/
 * Copyright (c) 2018 Samuel Gratzl; Licensed MIT*/
 
@@ -91,7 +91,8 @@
   .lineup-engine > header {
     flex: 0 0 auto;
     overflow-x: hidden;
-    margin-bottom: 3px; }
+    margin-bottom: 3px;
+    padding-bottom: 1px; }
     @supports (-moz-appearance: meterbar) {
       .lineup-engine > header {
         overflow-y: hidden; } }
