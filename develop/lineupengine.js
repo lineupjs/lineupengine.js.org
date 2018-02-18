@@ -1346,8 +1346,19 @@ var GridStyleManager = (function (_super) {
         _this.id = id;
         var headerScroller = root.querySelector('header');
         var bodyScroller = root.querySelector('main');
+        var oldMargin = 0;
         bodyScroller.addEventListener('scroll', function () {
-            headerScroller.scrollLeft = bodyScroller.scrollLeft;
+            var old = headerScroller.scrollLeft;
+            var newValue = bodyScroller.scrollLeft;
+            if (old !== newValue) {
+                requestAnimationFrame(function () { return headerScroller.scrollLeft = newValue; });
+            }
+            var delta = bodyScroller.clientWidth - headerScroller.clientWidth;
+            if (delta === oldMargin) {
+                return;
+            }
+            oldMargin = delta;
+            _this.updateRule('__scollBarFix', "\n        " + _this.id + " > header > :last-child {\n          margin-right: " + delta + "px;\n        }\n      ");
         });
         return _this;
     }
