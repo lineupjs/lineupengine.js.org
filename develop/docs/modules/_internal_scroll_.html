@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;index&quot; | lineupengine</title>
+	<title>&quot;internal/scroll&quot; | lineupengine</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_index_.html">&quot;index&quot;</a>
+					<a href="_internal_scroll_.html">&quot;internal/scroll&quot;</a>
 				</li>
 			</ul>
-			<h1>External module &quot;index&quot;</h1>
+			<h1>External module &quot;internal/scroll&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -70,37 +70,158 @@
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Classes</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported"><a href="../classes/_internal_scroll_.scrollhandler.html" class="tsd-kind-icon">Scroll<wbr>Handler</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Interfaces</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface tsd-parent-kind-external-module"><a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-kind-icon">IScroll<wbr>Info</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Type aliases</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-type-alias tsd-parent-kind-external-module"><a href="_internal_scroll_.html#idelayedmode" class="tsd-kind-icon">IDelayed<wbr>Mode</a></li>
+							</ul>
+						</section>
 						<section class="tsd-index-section ">
 							<h3>Variables</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported"><a href="_index_.html#__version__" class="tsd-kind-icon">__VERSION__</a></li>
-								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_index_.html#version" class="tsd-kind-icon">version</a></li>
+								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_internal_scroll_.html#defaultmode" class="tsd-kind-icon">default<wbr>Mode</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Functions</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_internal_scroll_.html#addscroll" class="tsd-kind-icon">add<wbr>Scroll</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_internal_scroll_.html#removescroll" class="tsd-kind-icon">remove<wbr>Scroll</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Variables</h2>
-				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
-					<a name="__version__" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagConst">Const</span> __VERSION__</h3>
-					<div class="tsd-signature tsd-kind-icon">__VERSION__<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+				<h2>Type aliases</h2>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-external-module">
+					<a name="idelayedmode" class="tsd-anchor"></a>
+					<h3>IDelayed<wbr>Mode</h3>
+					<div class="tsd-signature tsd-kind-icon">IDelayed<wbr>Mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"animation"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"sync"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"immediate"</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/index.ts#L10">index.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/internal/scroll.ts#L3">internal/scroll.ts:3</a></li>
 						</ul>
 					</aside>
 				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Variables</h2>
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
-					<a name="version" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagConst">Const</span> version</h3>
-					<div class="tsd-signature tsd-kind-icon">version<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;__VERSION__</span></div>
+					<a name="defaultmode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> default<wbr>Mode</h3>
+					<div class="tsd-signature tsd-kind-icon">default<wbr>Mode<span class="tsd-signature-symbol">:</span> <a href="_internal_scroll_.html#idelayedmode" class="tsd-signature-type">IDelayedMode</a><span class="tsd-signature-symbol"> =&nbsp;&quot;animation&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/index.ts#L11">index.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/internal/scroll.ts#L5">internal/scroll.ts:5</a></li>
 						</ul>
 					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="addscroll" class="tsd-anchor"></a>
+					<h3>add<wbr>Scroll</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Scroll<span class="tsd-signature-symbol">(</span>scroller<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span>, mode<span class="tsd-signature-symbol">: </span><a href="_internal_scroll_.html#idelayedmode" class="tsd-signature-type">IDelayedMode</a>, handler<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-signature-type">IScrollInfo</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/internal/scroll.ts#L111">internal/scroll.ts:111</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>scroller: <span class="tsd-signature-type">HTMLElement</span></h5>
+								</li>
+								<li>
+									<h5>mode: <a href="_internal_scroll_.html#idelayedmode" class="tsd-signature-type">IDelayedMode</a></h5>
+								</li>
+								<li>
+									<h5>handler: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>act<span class="tsd-signature-symbol">: </span><a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-signature-type">IScrollInfo</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>act: <a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-signature-type">IScrollInfo</a></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-signature-type">IScrollInfo</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="removescroll" class="tsd-anchor"></a>
+					<h3>remove<wbr>Scroll</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>Scroll<span class="tsd-signature-symbol">(</span>scroller<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span>, handler<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/internal/scroll.ts#L121">internal/scroll.ts:121</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>scroller: <span class="tsd-signature-type">HTMLElement</span></h5>
+								</li>
+								<li>
+									<h5>handler: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>act<span class="tsd-signature-symbol">: </span><a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-signature-type">IScrollInfo</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>act: <a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-signature-type">IScrollInfo</a></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -131,13 +252,13 @@
 					<li class=" tsd-kind-external-module">
 						<a href="_cell_internal_quadtreenode_.html">"cell/internal/<wbr>Quad<wbr>Tree<wbr>Node"</a>
 					</li>
-					<li class="current tsd-kind-external-module">
+					<li class=" tsd-kind-external-module">
 						<a href="_index_.html">"index"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="_internal_index_.html">"internal/index"</a>
 					</li>
-					<li class=" tsd-kind-external-module">
+					<li class="current tsd-kind-external-module">
 						<a href="_internal_scroll_.html">"internal/scroll"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
@@ -180,11 +301,23 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
-						<a href="_index_.html#__version__" class="tsd-kind-icon">__VERSION__</a>
+					<li class=" tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../classes/_internal_scroll_.scrollhandler.html" class="tsd-kind-icon">Scroll<wbr>Handler</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-kind-icon">IScroll<wbr>Info</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+						<a href="_internal_scroll_.html#idelayedmode" class="tsd-kind-icon">IDelayed<wbr>Mode</a>
 					</li>
 					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
-						<a href="_index_.html#version" class="tsd-kind-icon">version</a>
+						<a href="_internal_scroll_.html#defaultmode" class="tsd-kind-icon">default<wbr>Mode</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_internal_scroll_.html#addscroll" class="tsd-kind-icon">add<wbr>Scroll</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_internal_scroll_.html#removescroll" class="tsd-kind-icon">remove<wbr>Scroll</a>
 					</li>
 				</ul>
 			</nav>

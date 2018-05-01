@@ -85,7 +85,9 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#all" class="tsd-kind-icon">ALL</a></li>
 								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#none" class="tsd-kind-icon">NONE</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#partial" class="tsd-kind-icon">PARTIAL</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#some" class="tsd-kind-icon">SOME</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#some_bottom" class="tsd-kind-icon">SOME_<wbr>BOTTOM</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#some_top" class="tsd-kind-icon">SOME_<wbr>TOP</a></li>
 							</ul>
 						</section>
 					</div>
@@ -99,7 +101,7 @@
 					<div class="tsd-signature tsd-kind-icon">ALL<span class="tsd-signature-symbol">:</span> </div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/852c2de/src/mixin/IMixin.ts#L14">mixin/IMixin.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/mixin/IMixin.ts#L14">mixin/IMixin.ts:14</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -114,7 +116,7 @@
 					<div class="tsd-signature tsd-kind-icon">NONE<span class="tsd-signature-symbol">:</span> </div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/852c2de/src/mixin/IMixin.ts#L10">mixin/IMixin.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/mixin/IMixin.ts#L10">mixin/IMixin.ts:10</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -124,17 +126,47 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="partial" class="tsd-anchor"></a>
-					<h3>PARTIAL</h3>
-					<div class="tsd-signature tsd-kind-icon">PARTIAL<span class="tsd-signature-symbol">:</span> </div>
+					<a name="some" class="tsd-anchor"></a>
+					<h3>SOME</h3>
+					<div class="tsd-signature tsd-kind-icon">SOME<span class="tsd-signature-symbol">:</span> </div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/852c2de/src/mixin/IMixin.ts#L18">mixin/IMixin.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/mixin/IMixin.ts#L18">mixin/IMixin.ts:18</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>partial rows need to be created</p>
+							<p>unknown</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="some_bottom" class="tsd-anchor"></a>
+					<h3>SOME_<wbr>BOTTOM</h3>
+					<div class="tsd-signature tsd-kind-icon">SOME_<wbr>BOTTOM<span class="tsd-signature-symbol">:</span> </div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/mixin/IMixin.ts#L22">mixin/IMixin.ts:22</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>some rows are added at the bottom</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="some_top" class="tsd-anchor"></a>
+					<h3>SOME_<wbr>TOP</h3>
+					<div class="tsd-signature tsd-kind-icon">SOME_<wbr>TOP<span class="tsd-signature-symbol">:</span> </div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/a244bcf/src/mixin/IMixin.ts#L26">mixin/IMixin.ts:26</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>some rows are added at the top</p>
 						</div>
 					</div>
 				</section>
@@ -169,6 +201,12 @@
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="../modules/_index_.html">"index"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="../modules/_internal_index_.html">"internal/index"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="../modules/_internal_scroll_.html">"internal/scroll"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="../modules/_logic_.html">"logic"</a>
@@ -222,7 +260,13 @@
 								<a href="_mixin_imixin_.escrollresult.html#none" class="tsd-kind-icon">NONE</a>
 							</li>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_mixin_imixin_.escrollresult.html#partial" class="tsd-kind-icon">PARTIAL</a>
+								<a href="_mixin_imixin_.escrollresult.html#some" class="tsd-kind-icon">SOME</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_mixin_imixin_.escrollresult.html#some_bottom" class="tsd-kind-icon">SOME_<wbr>BOTTOM</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_mixin_imixin_.escrollresult.html#some_top" class="tsd-kind-icon">SOME_<wbr>TOP</a>
 							</li>
 						</ul>
 					</li>
