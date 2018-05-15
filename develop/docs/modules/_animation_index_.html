@@ -109,7 +109,7 @@
 					<div class="tsd-signature tsd-kind-icon">MAX_<wbr>ANIMATION_<wbr>TIME<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">1100</span><span class="tsd-signature-symbol"> =&nbsp;1100</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/be2aafe/src/animation/index.ts#L97">animation/index.ts:97</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/fd7733e/src/animation/index.ts#L97">animation/index.ts:97</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -129,7 +129,7 @@
 					<div class="tsd-signature tsd-kind-icon">NO_<wbr>CHANGE_<wbr>DELTA<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">1</span><span class="tsd-signature-symbol"> =&nbsp;1</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/be2aafe/src/animation/index.ts#L68">animation/index.ts:68</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/fd7733e/src/animation/index.ts#L68">animation/index.ts:68</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -139,7 +139,7 @@
 					<div class="tsd-signature tsd-kind-icon">default<wbr>Phases<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[{delay: 0, // beforeapply({mode, previous, nodeY, current, node}: Readonly&lt;IAnimationItem&gt;) {node.dataset.animation &#x3D; EAnimationMode[mode].toLowerCase();node.style.transform &#x3D; &#x60;translate(0, ${previous.y - nodeY}px)&#x60;;if (mode &#x3D;&#x3D;&#x3D; EAnimationMode.SHOW) {// already target heightnode.style.height &#x3D; current.height !&#x3D;&#x3D; null ? &#x60;${current.height}px&#x60; : null;} else { // always set previous height for default height changesnode.style.height &#x3D; &#x60;${previous.height}px&#x60;;}node.style.opacity &#x3D; mode &#x3D;&#x3D;&#x3D; EAnimationMode.SHOW ? &#x27;0&#x27; : (mode &#x3D;&#x3D;&#x3D; EAnimationMode.HIDE ? &#x27;1&#x27; : null);}},{delay: 10, // after some delay for the before phase have been applied visuallyapply({mode, current, nodeY, node}: Readonly&lt;IAnimationItem&gt;) {// null for added/update since already at the right positionnode.style.transform &#x3D; (mode &#x3D;&#x3D;&#x3D; EAnimationMode.HIDE || mode &#x3D;&#x3D;&#x3D; EAnimationMode.UPDATE_REMOVE) ? &#x60;translate(0, ${current.y - nodeY}px)&#x60; : null;if (mode !&#x3D;&#x3D; EAnimationMode.HIDE) { // keep height for removalnode.style.height &#x3D; current.height !&#x3D;&#x3D; null ? &#x60;${current.height}px&#x60; : null;}node.style.opacity &#x3D; mode &#x3D;&#x3D;&#x3D; EAnimationMode.SHOW ? &#x27;1&#x27; : (mode &#x3D;&#x3D;&#x3D; EAnimationMode.HIDE ? &#x27;0&#x27; : null);}},{delay: MAX_ANIMATION_TIME, // cleanupapply({node}: Readonly&lt;IAnimationItem&gt;) {delete node.dataset.animation;node.style.opacity &#x3D; null;node.style.transform &#x3D; null;}}]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/be2aafe/src/animation/index.ts#L99">animation/index.ts:99</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/fd7733e/src/animation/index.ts#L99">animation/index.ts:99</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -156,7 +156,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/be2aafe/src/animation/index.ts#L70">animation/index.ts:70</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/fd7733e/src/animation/index.ts#L70">animation/index.ts:70</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
