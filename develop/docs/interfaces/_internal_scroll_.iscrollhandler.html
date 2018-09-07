@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>EScrollResult | lineupengine</title>
+	<title>IScrollHandler | lineupengine</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,119 +56,73 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/_mixin_imixin_.html">&quot;mixin/IMixin&quot;</a>
+					<a href="../modules/_internal_scroll_.html">&quot;internal/scroll&quot;</a>
 				</li>
 				<li>
-					<a href="_mixin_imixin_.escrollresult.html">EScrollResult</a>
+					<a href="_internal_scroll_.iscrollhandler.html">IScrollHandler</a>
 				</li>
 			</ul>
-			<h1>Enumeration EScrollResult</h1>
+			<h1>Interface IScrollHandler</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>scrolling result</p>
-					</div>
-				</div>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">IScrollHandler</span>
+					</li>
+				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
-						<section class="tsd-index-section ">
-							<h3>Enumeration members</h3>
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#all" class="tsd-kind-icon">ALL</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#none" class="tsd-kind-icon">NONE</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#some" class="tsd-kind-icon">SOME</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#some_bottom" class="tsd-kind-icon">SOME_<wbr>BOTTOM</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_mixin_imixin_.escrollresult.html#some_top" class="tsd-kind-icon">SOME_<wbr>TOP</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="_internal_scroll_.iscrollhandler.html#handler" class="tsd-kind-icon">handler</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="_internal_scroll_.iscrollhandler.html#prev" class="tsd-kind-icon">prev</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="_internal_scroll_.iscrollhandler.html#timer" class="tsd-kind-icon">timer</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Enumeration members</h2>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="all" class="tsd-anchor"></a>
-					<h3>ALL</h3>
-					<div class="tsd-signature tsd-kind-icon">ALL<span class="tsd-signature-symbol">:</span> </div>
+			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="handler" class="tsd-anchor"></a>
+					<h3>handler</h3>
+					<div class="tsd-signature tsd-kind-icon">handler<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L14">mixin/IMixin.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/internal/scroll.ts#L17">internal/scroll.ts:17</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>all rows needed to be recreated</p>
-						</div>
-					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="none" class="tsd-anchor"></a>
-					<h3>NONE</h3>
-					<div class="tsd-signature tsd-kind-icon">NONE<span class="tsd-signature-symbol">:</span> </div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="prev" class="tsd-anchor"></a>
+					<h3>prev</h3>
+					<div class="tsd-signature tsd-kind-icon">prev<span class="tsd-signature-symbol">:</span> <a href="_internal_scroll_.iscrollinfo.html" class="tsd-signature-type">IScrollInfo</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L10">mixin/IMixin.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/internal/scroll.ts#L16">internal/scroll.ts:16</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>nothing has changed</p>
-						</div>
-					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="some" class="tsd-anchor"></a>
-					<h3>SOME</h3>
-					<div class="tsd-signature tsd-kind-icon">SOME<span class="tsd-signature-symbol">:</span> </div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="timer" class="tsd-anchor"></a>
+					<h3>timer</h3>
+					<div class="tsd-signature tsd-kind-icon">timer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L18">mixin/IMixin.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/internal/scroll.ts#L15">internal/scroll.ts:15</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>unknown</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="some_bottom" class="tsd-anchor"></a>
-					<h3>SOME_<wbr>BOTTOM</h3>
-					<div class="tsd-signature tsd-kind-icon">SOME_<wbr>BOTTOM<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L22">mixin/IMixin.ts:22</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>some rows are added at the bottom</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="some_top" class="tsd-anchor"></a>
-					<h3>SOME_<wbr>TOP</h3>
-					<div class="tsd-signature tsd-kind-icon">SOME_<wbr>TOP<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L26">mixin/IMixin.ts:26</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>some rows are added at the top</p>
-						</div>
-					</div>
 				</section>
 			</section>
 		</div>
@@ -205,13 +159,13 @@
 					<li class=" tsd-kind-external-module">
 						<a href="../modules/_internal_index_.html">"internal/index"</a>
 					</li>
-					<li class=" tsd-kind-external-module">
+					<li class="current tsd-kind-external-module">
 						<a href="../modules/_internal_scroll_.html">"internal/scroll"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="../modules/_logic_.html">"logic"</a>
 					</li>
-					<li class="current tsd-kind-external-module">
+					<li class=" tsd-kind-external-module">
 						<a href="../modules/_mixin_imixin_.html">"mixin/IMixin"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
@@ -251,38 +205,47 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../classes/_internal_scroll_.scrollhandler.html" class="tsd-kind-icon">Scroll<wbr>Handler</a>
+					</li>
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-enum tsd-parent-kind-external-module">
-						<a href="_mixin_imixin_.escrollresult.html" class="tsd-kind-icon">EScroll<wbr>Result</a>
+					<li class="current tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="_internal_scroll_.iscrollhandler.html" class="tsd-kind-icon">IScroll<wbr>Handler</a>
 						<ul>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_mixin_imixin_.escrollresult.html#all" class="tsd-kind-icon">ALL</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+								<a href="_internal_scroll_.iscrollhandler.html#handler" class="tsd-kind-icon">handler</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_mixin_imixin_.escrollresult.html#none" class="tsd-kind-icon">NONE</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+								<a href="_internal_scroll_.iscrollhandler.html#prev" class="tsd-kind-icon">prev</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_mixin_imixin_.escrollresult.html#some" class="tsd-kind-icon">SOME</a>
-							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_mixin_imixin_.escrollresult.html#some_bottom" class="tsd-kind-icon">SOME_<wbr>BOTTOM</a>
-							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_mixin_imixin_.escrollresult.html#some_top" class="tsd-kind-icon">SOME_<wbr>TOP</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+								<a href="_internal_scroll_.iscrollhandler.html#timer" class="tsd-kind-icon">timer</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
-						<a href="../interfaces/_mixin_imixin_.imixin.html" class="tsd-kind-icon">IMixin</a>
+						<a href="_internal_scroll_.iscrollinfo.html" class="tsd-kind-icon">IScroll<wbr>Info</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
-						<a href="../interfaces/_mixin_imixin_.imixinadapter.html" class="tsd-kind-icon">IMixin<wbr>Adapter</a>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+						<a href="../modules/_internal_scroll_.html#idelayedmode" class="tsd-kind-icon">IDelayed<wbr>Mode</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
-						<a href="../interfaces/_mixin_imixin_.imixinclass.html" class="tsd-kind-icon">IMixin<wbr>Class</a>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+						<a href="../modules/_internal_scroll_.html#defaultmode" class="tsd-kind-icon">default<wbr>Mode</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="../modules/_internal_scroll_.html#addscroll" class="tsd-kind-icon">add<wbr>Scroll</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../modules/_internal_scroll_.html#dummy" class="tsd-kind-icon">dummy</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="../modules/_internal_scroll_.html#isscrolleventwaiting" class="tsd-kind-icon">is<wbr>Scroll<wbr>Event<wbr>Waiting</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="../modules/_internal_scroll_.html#removescroll" class="tsd-kind-icon">remove<wbr>Scroll</a>
 					</li>
 				</ul>
 			</nav>

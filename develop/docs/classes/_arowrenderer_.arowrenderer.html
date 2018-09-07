@@ -108,6 +108,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_arowrenderer_.arowrenderer.html#adapter" class="tsd-kind-icon">adapter</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#body" class="tsd-kind-icon">body</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_arowrenderer_.arowrenderer.html#fragment" class="tsd-kind-icon">fragment</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#lastscrollinfo" class="tsd-kind-icon">last<wbr>Scroll<wbr>Info</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_arowrenderer_.arowrenderer.html#loading" class="tsd-kind-icon">loading</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_arowrenderer_.arowrenderer.html#loadingpool" class="tsd-kind-icon">loading<wbr>Pool</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_arowrenderer_.arowrenderer.html#mixins" class="tsd-kind-icon">mixins</a></li>
@@ -122,6 +123,7 @@
 								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#bodyscroller" class="tsd-kind-icon">body<wbr>Scroller</a></li>
 								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#bodysizer" class="tsd-kind-icon">body<wbr>Sizer</a></li>
 								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#context" class="tsd-kind-icon">context</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#idprefix" class="tsd-kind-icon">id<wbr>Prefix</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -139,6 +141,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_arowrenderer_.arowrenderer.html#destroy" class="tsd-kind-icon">destroy</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#foreachrow" class="tsd-kind-icon">for<wbr>Each<wbr>Row</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#init" class="tsd-kind-icon">init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_arowrenderer_.arowrenderer.html#manipulate" class="tsd-kind-icon">manipulate</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_arowrenderer_.arowrenderer.html#onscrolledimpl" class="tsd-kind-icon">on<wbr>Scrolled<wbr>Impl</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="_arowrenderer_.arowrenderer.html#onscrolledvertically" class="tsd-kind-icon">on<wbr>Scrolled<wbr>Vertically</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_arowrenderer_.arowrenderer.html#proxy" class="tsd-kind-icon">proxy</a></li>
@@ -184,7 +187,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L78">ARowRenderer.ts:78</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L98">ARowRenderer.ts:98</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -209,7 +212,7 @@
 					<div class="tsd-signature tsd-kind-icon">adapter<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_mixin_imixin_.imixinadapter.html" class="tsd-signature-type">IMixinAdapter</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L66">ARowRenderer.ts:66</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L83">ARowRenderer.ts:83</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -219,7 +222,7 @@
 					<div class="tsd-signature tsd-kind-icon">body<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L80">ARowRenderer.ts:80</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L100">ARowRenderer.ts:100</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -229,7 +232,17 @@
 					<div class="tsd-signature tsd-kind-icon">fragment<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">DocumentFragment</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L49">ARowRenderer.ts:49</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L66">ARowRenderer.ts:66</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="lastscrollinfo" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> last<wbr>Scroll<wbr>Info</h3>
+					<div class="tsd-signature tsd-kind-icon">last<wbr>Scroll<wbr>Info<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_internal_scroll_.iscrollinfo.html" class="tsd-signature-type">IScrollInfo</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> =&nbsp;null</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L86">ARowRenderer.ts:86</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -239,7 +252,7 @@
 					<div class="tsd-signature tsd-kind-icon">loading<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/_abortable_.iabortablepromise.html" class="tsd-signature-type">IAbortAblePromise</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new Map&lt;HTMLElement, IAbortAblePromise&lt;void&gt;&gt;()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L47">ARowRenderer.ts:47</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L64">ARowRenderer.ts:64</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -249,7 +262,7 @@
 					<div class="tsd-signature tsd-kind-icon">loading<wbr>Pool<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L46">ARowRenderer.ts:46</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L63">ARowRenderer.ts:63</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -259,7 +272,7 @@
 					<div class="tsd-signature tsd-kind-icon">mixins<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_mixin_imixin_.imixin.html" class="tsd-signature-type">IMixin</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L67">ARowRenderer.ts:67</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L84">ARowRenderer.ts:84</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -269,7 +282,7 @@
 					<div class="tsd-signature tsd-kind-icon">pool<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L45">ARowRenderer.ts:45</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L62">ARowRenderer.ts:62</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -279,7 +292,7 @@
 					<div class="tsd-signature tsd-kind-icon">scroll<wbr>Listener<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> =&nbsp;null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L68">ARowRenderer.ts:68</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L85">ARowRenderer.ts:85</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -289,7 +302,7 @@
 					<div class="tsd-signature tsd-kind-icon">visible<wbr>First<wbr>Row<wbr>Pos<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L64">ARowRenderer.ts:64</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L81">ARowRenderer.ts:81</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -316,7 +329,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L124">ARowRenderer.ts:124</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L154">ARowRenderer.ts:154</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -338,7 +351,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L128">ARowRenderer.ts:128</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L158">ARowRenderer.ts:158</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">HTMLElement</span></h4>
@@ -355,7 +368,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L143">ARowRenderer.ts:143</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L174">ARowRenderer.ts:174</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -364,6 +377,23 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <a href="../modules/_arowrenderer_.html#irowrendercontext" class="tsd-signature-type">IRowRenderContext</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
+					<a name="idprefix" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> id<wbr>Prefix</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> idPrefix<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L108">ARowRenderer.ts:108</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -380,7 +410,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L70">ARowRenderer.ts:70</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L88">ARowRenderer.ts:88</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span></h4>
@@ -391,13 +421,13 @@
 					<a name="addatbeginning" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> add<wbr>AtBeginning</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-						<li class="tsd-signature tsd-kind-icon">add<wbr>AtBeginning<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">add<wbr>AtBeginning<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, perform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DocumentFragment</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L355">ARowRenderer.ts:355</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L406">ARowRenderer.ts:406</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -408,8 +438,14 @@
 								<li>
 									<h5>to: <span class="tsd-signature-type">number</span></h5>
 								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> perform: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">DocumentFragment</span>
+							</h4>
 						</li>
 					</ul>
 				</section>
@@ -417,13 +453,13 @@
 					<a name="addatbottom" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> add<wbr>AtBottom</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-						<li class="tsd-signature tsd-kind-icon">add<wbr>AtBottom<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">add<wbr>AtBottom<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, perform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DocumentFragment</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L371">ARowRenderer.ts:371</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L425">ARowRenderer.ts:425</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -434,8 +470,14 @@
 								<li>
 									<h5>to: <span class="tsd-signature-type">number</span></h5>
 								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> perform: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">DocumentFragment</span>
+							</h4>
 						</li>
 					</ul>
 				</section>
@@ -449,7 +491,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L93">ARowRenderer.ts:93</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L115">ARowRenderer.ts:115</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -486,7 +528,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L568">ARowRenderer.ts:568</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L623">ARowRenderer.ts:623</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -521,7 +563,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L665">ARowRenderer.ts:665</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L720">ARowRenderer.ts:720</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -543,7 +585,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L270">ARowRenderer.ts:270</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L304">ARowRenderer.ts:304</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -566,7 +608,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L97">ARowRenderer.ts:97</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L119">ARowRenderer.ts:119</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_mixin_imixin_.imixinadapter.html" class="tsd-signature-type">IMixinAdapter</a></h4>
@@ -583,7 +625,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L151">ARowRenderer.ts:151</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L182">ARowRenderer.ts:182</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -624,7 +666,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L189">ARowRenderer.ts:189</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L221">ARowRenderer.ts:221</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -646,7 +688,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L315">ARowRenderer.ts:315</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L356">ARowRenderer.ts:356</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -704,7 +746,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L165">ARowRenderer.ts:165</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L196">ARowRenderer.ts:196</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -718,6 +760,35 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="manipulate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> manipulate</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">manipulate<span class="tsd-signature-symbol">(</span>toRecycle<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span>, toAdd<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DocumentFragment</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span>, bottom<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L851">ARowRenderer.ts:851</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>toRecycle: <span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+								<li>
+									<h5>toAdd: <span class="tsd-signature-type">DocumentFragment</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+								<li>
+									<h5>bottom: <span class="tsd-signature-type">boolean</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
 					<a name="onscrolledimpl" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> on<wbr>Scrolled<wbr>Impl</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
@@ -727,7 +798,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L720">ARowRenderer.ts:720</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L781">ARowRenderer.ts:781</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -753,7 +824,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L686">ARowRenderer.ts:686</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L741">ARowRenderer.ts:741</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -797,7 +868,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L240">ARowRenderer.ts:240</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L274">ARowRenderer.ts:274</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -823,7 +894,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L406">ARowRenderer.ts:406</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L461">ARowRenderer.ts:461</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -855,7 +926,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L440">ARowRenderer.ts:440</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L495">ARowRenderer.ts:495</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -878,7 +949,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L414">ARowRenderer.ts:414</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L469">ARowRenderer.ts:469</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -895,7 +966,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L229">ARowRenderer.ts:229</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L263">ARowRenderer.ts:263</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -912,13 +983,13 @@
 					<a name="remove" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> remove</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-						<li class="tsd-signature tsd-kind-icon">remove<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, fromBeginning<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, fromBeginning<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, perform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L343">ARowRenderer.ts:343</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L384">ARowRenderer.ts:384</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -932,8 +1003,14 @@
 								<li>
 									<h5>fromBeginning: <span class="tsd-signature-type">boolean</span></h5>
 								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> perform: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span>
+							</h4>
 						</li>
 					</ul>
 				</section>
@@ -941,16 +1018,22 @@
 					<a name="removeall" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> remove<wbr>All</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-						<li class="tsd-signature tsd-kind-icon">remove<wbr>All<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>All<span class="tsd-signature-symbol">(</span>perform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L281">ARowRenderer.ts:281</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L315">ARowRenderer.ts:315</a></li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> perform: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -958,13 +1041,13 @@
 					<a name="removefrombeginning" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> remove<wbr>From<wbr>Beginning</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-						<li class="tsd-signature tsd-kind-icon">remove<wbr>From<wbr>Beginning<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>From<wbr>Beginning<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, perform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L335">ARowRenderer.ts:335</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L376">ARowRenderer.ts:376</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -975,8 +1058,14 @@
 								<li>
 									<h5>to: <span class="tsd-signature-type">number</span></h5>
 								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> perform: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span>
+							</h4>
 						</li>
 					</ul>
 				</section>
@@ -984,13 +1073,13 @@
 					<a name="removefrombottom" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> remove<wbr>From<wbr>Bottom</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-						<li class="tsd-signature tsd-kind-icon">remove<wbr>From<wbr>Bottom<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>From<wbr>Bottom<span class="tsd-signature-symbol">(</span>from<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, to<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, perform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L339">ARowRenderer.ts:339</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L380">ARowRenderer.ts:380</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1001,8 +1090,14 @@
 								<li>
 									<h5>to: <span class="tsd-signature-type">number</span></h5>
 								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> perform: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span>
+							</h4>
 						</li>
 					</ul>
 				</section>
@@ -1016,7 +1111,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L673">ARowRenderer.ts:673</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L728">ARowRenderer.ts:728</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1038,7 +1133,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L200">ARowRenderer.ts:200</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L230">ARowRenderer.ts:230</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1069,7 +1164,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L218">ARowRenderer.ts:218</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L252">ARowRenderer.ts:252</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">HTMLElement</span></h4>
@@ -1086,7 +1181,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L701">ARowRenderer.ts:701</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L762">ARowRenderer.ts:762</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1123,7 +1218,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L692">ARowRenderer.ts:692</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L753">ARowRenderer.ts:753</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1149,7 +1244,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L293">ARowRenderer.ts:293</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L333">ARowRenderer.ts:333</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1171,7 +1266,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L387">ARowRenderer.ts:387</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L444">ARowRenderer.ts:444</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1194,7 +1289,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L159">ARowRenderer.ts:159</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L190">ARowRenderer.ts:190</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1235,7 +1330,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L395">ARowRenderer.ts:395</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L450">ARowRenderer.ts:450</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1258,7 +1353,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L194">ARowRenderer.ts:194</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L226">ARowRenderer.ts:226</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1280,7 +1375,7 @@
 					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L72">ARowRenderer.ts:72</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L90">ARowRenderer.ts:90</a></li>
 						</ul>
 					</aside>
 					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -1289,17 +1384,17 @@
 						<div class="tsd-signature tsd-kind-icon">async<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"animation"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"sync"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"immediate"</span><span class="tsd-signature-symbol"> =&nbsp;defaultMode</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L73">ARowRenderer.ts:73</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L91">ARowRenderer.ts:91</a></li>
 							</ul>
 						</aside>
 					</section>
 					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="options.batchsize" class="tsd-anchor"></a>
 						<h3>batch<wbr>Size</h3>
-						<div class="tsd-signature tsd-kind-icon">batch<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;5</span></div>
+						<div class="tsd-signature tsd-kind-icon">batch<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;10</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L77">ARowRenderer.ts:77</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L95">ARowRenderer.ts:95</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1309,7 +1404,7 @@
 						<div class="tsd-signature tsd-kind-icon">min<wbr>Scroll<wbr>Delta<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;10</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L74">ARowRenderer.ts:74</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L92">ARowRenderer.ts:92</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1319,7 +1414,7 @@
 						<div class="tsd-signature tsd-kind-icon">mixins<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">never</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L75">ARowRenderer.ts:75</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L93">ARowRenderer.ts:93</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1329,7 +1424,27 @@
 						<div class="tsd-signature tsd-kind-icon">scrolling<wbr>Hint<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L76">ARowRenderer.ts:76</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L94">ARowRenderer.ts:94</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="options.striped" class="tsd-anchor"></a>
+						<h3>striped</h3>
+						<div class="tsd-signature tsd-kind-icon">striped<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L96">ARowRenderer.ts:96</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="options.viewportoversize" class="tsd-anchor"></a>
+						<h3>viewport<wbr>Oversize</h3>
+						<div class="tsd-signature tsd-kind-icon">viewport<wbr>Oversize<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;200</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L97">ARowRenderer.ts:97</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1340,7 +1455,7 @@
 					<div class="tsd-signature tsd-kind-icon">visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L54">ARowRenderer.ts:54</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L71">ARowRenderer.ts:71</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1354,7 +1469,7 @@
 						<div class="tsd-signature tsd-kind-icon">first<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L55">ARowRenderer.ts:55</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L72">ARowRenderer.ts:72</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1364,7 +1479,7 @@
 						<div class="tsd-signature tsd-kind-icon">forced<wbr>First<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L56">ARowRenderer.ts:56</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L73">ARowRenderer.ts:73</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1374,7 +1489,7 @@
 						<div class="tsd-signature tsd-kind-icon">forced<wbr>Last<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;-1</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L58">ARowRenderer.ts:58</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L75">ARowRenderer.ts:75</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1384,7 +1499,7 @@
 						<div class="tsd-signature tsd-kind-icon">last<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;-1</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/ARowRenderer.ts#L57">ARowRenderer.ts:57</a></li>
+								<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/ARowRenderer.ts#L74">ARowRenderer.ts:74</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -1452,6 +1567,9 @@
 						<a href="../modules/_style_index_.html">"style/index"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
+						<a href="../modules/_styles_index_.html">"styles/index"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
 						<a href="../modules/_table_acelltablesection_.html">"table/ACell<wbr>Table<wbr>Section"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
@@ -1484,6 +1602,9 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
 								<a href="_arowrenderer_.arowrenderer.html#fragment" class="tsd-kind-icon">fragment</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="_arowrenderer_.arowrenderer.html#lastscrollinfo" class="tsd-kind-icon">last<wbr>Scroll<wbr>Info</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
 								<a href="_arowrenderer_.arowrenderer.html#loading" class="tsd-kind-icon">loading</a>
 							</li>
@@ -1510,6 +1631,9 @@
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
 								<a href="_arowrenderer_.arowrenderer.html#context" class="tsd-kind-icon">context</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-protected">
+								<a href="_arowrenderer_.arowrenderer.html#idprefix" class="tsd-kind-icon">id<wbr>Prefix</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
 								<a href="_arowrenderer_.arowrenderer.html#abortanimation" class="tsd-kind-icon">abort<wbr>Animation</a>
@@ -1546,6 +1670,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
 								<a href="_arowrenderer_.arowrenderer.html#init" class="tsd-kind-icon">init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="_arowrenderer_.arowrenderer.html#manipulate" class="tsd-kind-icon">manipulate</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
 								<a href="_arowrenderer_.arowrenderer.html#onscrolledimpl" class="tsd-kind-icon">on<wbr>Scrolled<wbr>Impl</a>
@@ -1625,6 +1752,9 @@
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
 						<a href="../modules/_arowrenderer_.html#irowrendercontext" class="tsd-kind-icon">IRow<wbr>Render<wbr>Context</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="../modules/_arowrenderer_.html#settransform" class="tsd-kind-icon">set<wbr>Transform</a>
 					</li>
 				</ul>
 			</nav>

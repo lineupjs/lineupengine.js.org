@@ -92,7 +92,8 @@
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#context" class="tsd-kind-icon">context</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#scroller" class="tsd-kind-icon">scroller</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#scrolloffset" class="tsd-kind-icon">scroll<wbr>Offset</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#scrolltotal" class="tsd-kind-icon">scroll<wbr>Total</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#visible" class="tsd-kind-icon">visible</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#visiblefirstrowpos" class="tsd-kind-icon">visible<wbr>First<wbr>Row<wbr>Pos</a></li>
 							</ul>
@@ -102,6 +103,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#addatbeginning" class="tsd-kind-icon">add<wbr>AtBeginning</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#addatbottom" class="tsd-kind-icon">add<wbr>AtBottom</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#isscrolleventwaiting" class="tsd-kind-icon">is<wbr>Scroll<wbr>Event<wbr>Waiting</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#removefrombeginning" class="tsd-kind-icon">remove<wbr>From<wbr>Beginning</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#removefrombottom" class="tsd-kind-icon">remove<wbr>From<wbr>Bottom</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_mixin_imixin_.imixinadapter.html#syncfrozen" class="tsd-kind-icon">sync<wbr>Frozen</a></li>
@@ -119,17 +121,27 @@
 					<div class="tsd-signature tsd-kind-icon">context<span class="tsd-signature-symbol">:</span> <a href="_logic_.iexceptioncontext.html" class="tsd-signature-type">IExceptionContext</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L42">mixin/IMixin.ts:42</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L42">mixin/IMixin.ts:42</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="scroller" class="tsd-anchor"></a>
-					<h3>scroller</h3>
-					<div class="tsd-signature tsd-kind-icon">scroller<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span></div>
+					<a name="scrolloffset" class="tsd-anchor"></a>
+					<h3>scroll<wbr>Offset</h3>
+					<div class="tsd-signature tsd-kind-icon">scroll<wbr>Offset<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L43">mixin/IMixin.ts:43</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L43">mixin/IMixin.ts:43</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="scrolltotal" class="tsd-anchor"></a>
+					<h3>scroll<wbr>Total</h3>
+					<div class="tsd-signature tsd-kind-icon">scroll<wbr>Total<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L44">mixin/IMixin.ts:44</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -139,7 +151,7 @@
 					<div class="tsd-signature tsd-kind-icon">visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L33">mixin/IMixin.ts:33</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L33">mixin/IMixin.ts:33</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -166,7 +178,7 @@
 					<div class="tsd-signature tsd-kind-icon">visible<wbr>First<wbr>Row<wbr>Pos<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L40">mixin/IMixin.ts:40</a></li>
+							<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L40">mixin/IMixin.ts:40</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -183,7 +195,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L45">mixin/IMixin.ts:45</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L46">mixin/IMixin.ts:46</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -212,7 +224,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L47">mixin/IMixin.ts:47</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L48">mixin/IMixin.ts:48</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -229,6 +241,23 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="isscrolleventwaiting" class="tsd-anchor"></a>
+					<h3>is<wbr>Scroll<wbr>Event<wbr>Waiting</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Scroll<wbr>Event<wbr>Waiting<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L63">mixin/IMixin.ts:63</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
 					<a name="removefrombeginning" class="tsd-anchor"></a>
 					<h3>remove<wbr>From<wbr>Beginning</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
@@ -238,7 +267,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L49">mixin/IMixin.ts:49</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L50">mixin/IMixin.ts:50</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -267,7 +296,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L51">mixin/IMixin.ts:51</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L52">mixin/IMixin.ts:52</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -293,7 +322,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L60">mixin/IMixin.ts:60</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L61">mixin/IMixin.ts:61</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -322,7 +351,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/bcc0924/src/mixin/IMixin.ts#L53">mixin/IMixin.ts:53</a></li>
+									<li>Defined in <a href="https://github.com/sgratzl/lineupengine/blob/d1d8e66/src/mixin/IMixin.ts#L54">mixin/IMixin.ts:54</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -398,6 +427,9 @@
 						<a href="../modules/_style_index_.html">"style/index"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
+						<a href="../modules/_styles_index_.html">"styles/index"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
 						<a href="../modules/_table_acelltablesection_.html">"table/ACell<wbr>Table<wbr>Section"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
@@ -428,7 +460,10 @@
 								<a href="_mixin_imixin_.imixinadapter.html#context" class="tsd-kind-icon">context</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_mixin_imixin_.imixinadapter.html#scroller" class="tsd-kind-icon">scroller</a>
+								<a href="_mixin_imixin_.imixinadapter.html#scrolloffset" class="tsd-kind-icon">scroll<wbr>Offset</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_mixin_imixin_.imixinadapter.html#scrolltotal" class="tsd-kind-icon">scroll<wbr>Total</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_mixin_imixin_.imixinadapter.html#visible" class="tsd-kind-icon">visible</a>
@@ -441,6 +476,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface">
 								<a href="_mixin_imixin_.imixinadapter.html#addatbottom" class="tsd-kind-icon">add<wbr>AtBottom</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="_mixin_imixin_.imixinadapter.html#isscrolleventwaiting" class="tsd-kind-icon">is<wbr>Scroll<wbr>Event<wbr>Waiting</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface">
 								<a href="_mixin_imixin_.imixinadapter.html#removefrombeginning" class="tsd-kind-icon">remove<wbr>From<wbr>Beginning</a>
