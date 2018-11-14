@@ -54,6 +54,9 @@ article.le-row-animation.le-update-animation.le-hide-animation > .le-tr[data-ani
   align-content: stretch;
   box-sizing: border-box; }
 
+.le-hidden {
+  display: none; }
+
 .le-header {
   flex: 0 0 auto;
   overflow-x: hidden;
