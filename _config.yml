@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LineUpEngine
-email: samuel_gratzl@gmx.at
+email: sam@sgratzl.com
 description: > # this means to ignore newlines until "baseurl:"
   LineUpEngine is a scalable (multi) table renderer optimized for modern web-browsers
 github_username:  sgratzl
