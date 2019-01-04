@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Lineupengine</title>
+	<title>lineupengine</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="index.html" class="title">Lineupengine</a>
+					<a href="index.html" class="title">lineupengine</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -38,6 +38,10 @@
 							</div>
 							<input type="checkbox" id="tsd-filter-inherited" checked />
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -52,7 +56,7 @@
 					<a href="globals.html">Globals</a>
 				</li>
 			</ul>
-			<h1> Lineupengine</h1>
+			<h1> lineupengine</h1>
 		</div>
 	</div>
 </header>
@@ -90,13 +94,13 @@ npm install</code></pre>
 				<p><strong>Watch file changes</strong></p>
 				<pre><code class="language-bash">npm run watch</code></pre>
 				<h2 id="notes">Notes</h2>
-				<pre><code>firefox max DOM height: <span class="hljs-number">17.800</span><span class="hljs-number">.000</span>px &lt; <span class="hljs-number">17899999</span>px
-edge max DOM height: <span class="hljs-number">10000000</span>px &lt; <span class="hljs-number">1099999</span>px
+				<pre><code><span class="hljs-selector-tag">firefox</span> <span class="hljs-selector-tag">max</span> <span class="hljs-selector-tag">DOM</span> <span class="hljs-selector-tag">height</span>: 17<span class="hljs-selector-class">.800</span><span class="hljs-selector-class">.000px</span> &lt; 17899999<span class="hljs-selector-tag">px</span>
+<span class="hljs-selector-tag">edge</span> <span class="hljs-selector-tag">max</span> <span class="hljs-selector-tag">DOM</span> <span class="hljs-selector-tag">height</span>: 10000000<span class="hljs-selector-tag">px</span> &lt; 1099999<span class="hljs-selector-tag">px</span>
 
-scrollHeight
-chrome:  <span class="hljs-number">33.554</span><span class="hljs-number">.431</span>px translate + height
-firefox: <span class="hljs-number">17.895</span><span class="hljs-number">.566</span>px marginTop + height
-edge:    <span class="hljs-number">3.033</span><span class="hljs-number">.917</span>px height</code></pre>
+<span class="hljs-selector-tag">scrollHeight</span>
+<span class="hljs-selector-tag">chrome</span>:  33<span class="hljs-selector-class">.554</span><span class="hljs-selector-class">.431px</span> <span class="hljs-selector-tag">translate</span> + <span class="hljs-selector-tag">height</span>
+<span class="hljs-selector-tag">firefox</span>: 17<span class="hljs-selector-class">.895</span><span class="hljs-selector-class">.566px</span> <span class="hljs-selector-tag">marginTop</span> + <span class="hljs-selector-tag">height</span>
+<span class="hljs-selector-tag">edge</span>:    3<span class="hljs-selector-class">.033</span><span class="hljs-selector-class">.917px</span> <span class="hljs-selector-tag">height</span></code></pre>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -183,7 +187,7 @@ edge:    <span class="hljs-number">3.033</span><span class="hljs-number">.917</s
 		</div>
 	</div>
 </div>
-<footer>
+<footer class="with-border-bottom">
 	<div class="container">
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
@@ -242,6 +246,9 @@ edge:    <span class="hljs-number">3.033</span><span class="hljs-number">.917</s
 		</div>
 	</div>
 </footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
 <div class="overlay"></div>
 <script src="assets/js/main.js"></script>
 <script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
