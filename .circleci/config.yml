@@ -1,9 +1,0 @@
-version: 2
-jobs:
-  build:
-    working_directory: ~/phovea
-    docker:
-      - image: circleci/node:6-browsers
-    steps:
-      - checkout
-      - run: echo "dummy build"
