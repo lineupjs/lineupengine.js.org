@@ -59,7 +59,7 @@
 				<a href="#lineupengine" id="lineupengine" style="color: inherit; text-decoration: none;">
 					<h1>LineUpEngine</h1>
 				</a>
-				<p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <a href="https://npmjs.org/package/lineupengine"><img src="https://badge.fury.io/js/lineupengine.svg" alt="NPM version"></a> <a href="https://github.com/lineupjs/lineupengine/workflows/ci/badge.svg">Github Actions</a>]<a href="https://github.com/lineupjs/lineupengine/actions">github-actions-url</a></p>
+				<p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <a href="https://npmjs.org/package/lineupengine"><img src="https://badge.fury.io/js/lineupengine.svg" alt="NPM version"></a> <a href="https://github.com/lineupjs/lineupengine/actions"><img src="https://github.com/lineupjs/lineupengine/workflows/ci/badge.svg" alt="Github Actions"></a></p>
 				<p>a fast engine for rendering large tables consisting of rows, rows+columns, multiple rows+columns instances.</p>
 				<a href="#supported-browsers" id="supported-browsers" style="color: inherit; text-decoration: none;">
 					<h2>Supported Browsers</h2>
@@ -71,8 +71,16 @@
 				<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
 					<h2>Installation</h2>
 				</a>
-				<p>Develop Version:</p>
-				<pre><code class="language-html"><span style="color: #800000">&lt;script</span><span style="color: #000000FF"> </span><span style="color: #FF0000">src</span><span style="color: #000000FF">=</span><span style="color: #0000FF">&quot;https://lineupengine.js.org/develop/lineupengine.min.js&quot;</span><span style="color: #800000">&gt;&lt;/script&gt;</span>
+				<pre><code class="language-sh"><span style="color: #000000">npm install lineupengine</span>
+</code></pre>
+				<pre><code class="language-html"><span style="color: #800000">&lt;script</span><span style="color: #000000FF"> </span><span style="color: #FF0000">src</span><span style="color: #000000FF">=</span><span style="color: #0000FF">&quot;https://lineupengine.js.org/main/lineupengine.js&quot;</span><span style="color: #800000">&gt;&lt;/script&gt;</span>
+</code></pre>
+				<a href="#develop-version" id="develop-version" style="color: inherit; text-decoration: none;">
+					<h3>Develop Version:</h3>
+				</a>
+				<pre><code class="language-sh"><span style="color: #000000">npm install lineupengine@next</span>
+</code></pre>
+				<pre><code class="language-html"><span style="color: #800000">&lt;script</span><span style="color: #000000FF"> </span><span style="color: #FF0000">src</span><span style="color: #000000FF">=</span><span style="color: #0000FF">&quot;https://lineupengine.js.org/develop/lineupengine.js&quot;</span><span style="color: #800000">&gt;&lt;/script&gt;</span>
 </code></pre>
 				<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
 					<h2>Usage</h2>
@@ -81,13 +89,13 @@
 				<a href="#api-documentation" id="api-documentation" style="color: inherit; text-decoration: none;">
 					<h2>API Documentation</h2>
 				</a>
-				<p>see <a href="https://lineupengine.js.org/develop/docs">Develop API documentation</a></p>
+				<p>see <a href="https://lineupengine.js.org/main/docs">Main API documentation</a> and <a href="https://lineupengine.js.org/develop/docs">Develop API documentation</a></p>
 				<a href="#development-environment" id="development-environment" style="color: inherit; text-decoration: none;">
 					<h2>Development Environment</h2>
 				</a>
-				<p><strong>Installation</strong></p>
 				<pre><code class="language-sh"><span style="color: #000000">git clone https://github.com/lineupjs/lineupengine.git</span>
 <span style="color: #795E26">cd</span><span style="color: #000000"> lineupengine</span>
+
 <span style="color: #000000">npm i -g yarn</span>
 <span style="color: #000000">yarn </span><span style="color: #795E26">set</span><span style="color: #000000"> version latest</span>
 <span style="color: #000000">cat .yarnrc_patch.yml &gt;&gt; .yarnrc.yml</span>
