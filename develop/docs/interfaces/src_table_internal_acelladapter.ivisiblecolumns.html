@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>EAnimationMode | Lineupengine - v2.2.0</title>
+	<title>IVisibleColumns | Lineupengine - v2.2.0</title>
 	<meta name="description" content="Documentation for Lineupengine - v2.2.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -53,119 +53,95 @@
 					<a href="../modules.html">Lineupengine - v2.2.0</a>
 				</li>
 				<li>
-					<a href="../modules/src_animation.html">src/animation</a>
+					<a href="../modules/src_table_internal_acelladapter.html">src/table/internal/ACellAdapter</a>
 				</li>
 				<li>
-					<a href="src_animation.eanimationmode.html">EAnimationMode</a>
+					<a href="src_table_internal_acelladapter.ivisiblecolumns.html">IVisibleColumns</a>
 				</li>
 			</ul>
-			<h1>Enumeration EAnimationMode</h1>
+			<h1>Interface IVisibleColumns</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>different row animation modes</p>
-					</div>
-				</div>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">IVisibleColumns</span>
+					</li>
+				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Enumeration members</h3>
+							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="src_animation.eanimationmode.html#hide" class="tsd-kind-icon">HIDE</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="src_animation.eanimationmode.html#show" class="tsd-kind-icon">SHOW</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="src_animation.eanimationmode.html#update" class="tsd-kind-icon">UPDATE</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="src_animation.eanimationmode.html#update_create" class="tsd-kind-icon">UPDATE_<wbr>CREATE</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="src_animation.eanimationmode.html#update_remove" class="tsd-kind-icon">UPDATE_<wbr>REMOVE</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="src_table_internal_acelladapter.ivisiblecolumns.html#first" class="tsd-kind-icon">first</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="src_table_internal_acelladapter.ivisiblecolumns.html#forcedfirst" class="tsd-kind-icon">forced<wbr>First</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="src_table_internal_acelladapter.ivisiblecolumns.html#forcedlast" class="tsd-kind-icon">forced<wbr>Last</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="src_table_internal_acelladapter.ivisiblecolumns.html#frozen" class="tsd-kind-icon">frozen</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="src_table_internal_acelladapter.ivisiblecolumns.html#last" class="tsd-kind-icon">last</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Enumeration members</h2>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="hide" class="tsd-anchor"></a>
-					<h3>HIDE</h3>
-					<div class="tsd-signature tsd-kind-icon">HIDE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 4</span></div>
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="first" class="tsd-anchor"></a>
+					<h3>first</h3>
+					<div class="tsd-signature tsd-kind-icon">first<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/animation/index.ts#L29">src/animation/index.ts:29</a></li>
+							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/table/internal/ACellAdapter.ts#L27">src/table/internal/ACellAdapter.ts:27</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>row disappears</p>
-						</div>
-					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="show" class="tsd-anchor"></a>
-					<h3>SHOW</h3>
-					<div class="tsd-signature tsd-kind-icon">SHOW<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 3</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="forcedfirst" class="tsd-anchor"></a>
+					<h3>forced<wbr>First</h3>
+					<div class="tsd-signature tsd-kind-icon">forced<wbr>First<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/animation/index.ts#L25">src/animation/index.ts:25</a></li>
+							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/table/internal/ACellAdapter.ts#L28">src/table/internal/ACellAdapter.ts:28</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>row appears</p>
-						</div>
-					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="update" class="tsd-anchor"></a>
-					<h3>UPDATE</h3>
-					<div class="tsd-signature tsd-kind-icon">UPDATE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 0</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="forcedlast" class="tsd-anchor"></a>
+					<h3>forced<wbr>Last</h3>
+					<div class="tsd-signature tsd-kind-icon">forced<wbr>Last<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/animation/index.ts#L13">src/animation/index.ts:13</a></li>
+							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/table/internal/ACellAdapter.ts#L30">src/table/internal/ACellAdapter.ts:30</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>plain update existed both before and after</p>
-						</div>
-					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="update_create" class="tsd-anchor"></a>
-					<h3>UPDATE_<wbr>CREATE</h3>
-					<div class="tsd-signature tsd-kind-icon">UPDATE_<wbr>CREATE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 1</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="frozen" class="tsd-anchor"></a>
+					<h3>frozen</h3>
+					<div class="tsd-signature tsd-kind-icon">frozen<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/animation/index.ts#L17">src/animation/index.ts:17</a></li>
+							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/table/internal/ACellAdapter.ts#L26">src/table/internal/ACellAdapter.ts:26</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>exists both before and after but wasn&#39;t visible yet thus was created</p>
-						</div>
-					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="update_remove" class="tsd-anchor"></a>
-					<h3>UPDATE_<wbr>REMOVE</h3>
-					<div class="tsd-signature tsd-kind-icon">UPDATE_<wbr>REMOVE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 2</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="last" class="tsd-anchor"></a>
+					<h3>last</h3>
+					<div class="tsd-signature tsd-kind-icon">last<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/animation/index.ts#L21">src/animation/index.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/lineupjs/lineupengine/blob/4587403/src/table/internal/ACellAdapter.ts#L29">src/table/internal/ACellAdapter.ts:29</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>exists both before and after is visible but not needed anymore and thus removed</p>
-						</div>
-					</div>
 				</section>
 			</section>
 		</div>
@@ -187,7 +163,7 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/src_abortable.html">src/abort<wbr>Able</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="../modules/src_animation.html">src/animation</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -241,7 +217,7 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/src_table_multitablerowrenderer.html">src/table/<wbr>Multi<wbr>Table<wbr>Row<wbr>Renderer</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="../modules/src_table_internal_acelladapter.html">src/table/internal/ACell<wbr>Adapter</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -251,48 +227,33 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-reference tsd-parent-kind-module">
-						<a href="../modules/src_animation.html#keyfinder" class="tsd-kind-icon">Key<wbr>Finder</a>
+					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-has-type-parameter">
+						<a href="src_table_internal_acelladapter.icelladapterrendercontext.html" class="tsd-kind-icon">ICell<wbr>Adapter<wbr>Render<wbr>Context</a>
 					</li>
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-enum tsd-parent-kind-module">
-						<a href="src_animation.eanimationmode.html" class="tsd-kind-icon">EAnimation<wbr>Mode</a>
+					<li class="current tsd-kind-interface tsd-parent-kind-module">
+						<a href="src_table_internal_acelladapter.ivisiblecolumns.html" class="tsd-kind-icon">IVisible<wbr>Columns</a>
 						<ul>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="src_animation.eanimationmode.html#hide" class="tsd-kind-icon">HIDE</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="src_table_internal_acelladapter.ivisiblecolumns.html#first" class="tsd-kind-icon">first</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="src_animation.eanimationmode.html#show" class="tsd-kind-icon">SHOW</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="src_table_internal_acelladapter.ivisiblecolumns.html#forcedfirst" class="tsd-kind-icon">forced<wbr>First</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="src_animation.eanimationmode.html#update" class="tsd-kind-icon">UPDATE</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="src_table_internal_acelladapter.ivisiblecolumns.html#forcedlast" class="tsd-kind-icon">forced<wbr>Last</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="src_animation.eanimationmode.html#update_create" class="tsd-kind-icon">UPDATE_<wbr>CREATE</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="src_table_internal_acelladapter.ivisiblecolumns.html#frozen" class="tsd-kind-icon">frozen</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="src_animation.eanimationmode.html#update_remove" class="tsd-kind-icon">UPDATE_<wbr>REMOVE</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="src_table_internal_acelladapter.ivisiblecolumns.html#last" class="tsd-kind-icon">last</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/src_animation.ianimationcontext.html" class="tsd-kind-icon">IAnimation<wbr>Context</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/src_animation.ianimationitem.html" class="tsd-kind-icon">IAnimation<wbr>Item</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/src_animation.iphase.html" class="tsd-kind-icon">IPhase</a>
-					</li>
-					<li class=" tsd-kind-variable tsd-parent-kind-module">
-						<a href="../modules/src_animation.html#defaultphases" class="tsd-kind-icon">default<wbr>Phases</a>
-					</li>
-					<li class=" tsd-kind-function tsd-parent-kind-module">
-						<a href="../modules/src_animation.html#noanimationchange" class="tsd-kind-icon">no<wbr>Animation<wbr>Change</a>
-					</li>
 				</ul>
 			</nav>
 		</div>
@@ -312,6 +273,7 @@
 			<ul class="tsd-legend">
 				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
 				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
