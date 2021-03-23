@@ -1,74 +1,70 @@
-LineUpEngine
-============
-[![License: MIT][mit-image]][mit-url] [![NPM version][npm-image]][npm-url]  [![CircleCI][ci-image]][ci-url] 
+# LineUpEngine
 
-a fast engine for rendering large tables consisting of rows, rows+columns, multiple rows+columns instances. 
+[![License: MIT][mit-image]][mit-url] [![NPM version][npm-image]][npm-url] [![Github Actions][github-actions-image]][github-actions-url]
 
-Supported Browsers
-------------------
+a fast engine for rendering large tables consisting of rows, rows+columns, multiple rows+columns instances.
 
- * latest Chrome (best performance)
- * Firefox Quantum
- * Edge 16
+## Supported Browsers
 
-Installation
-------------
+- latest Chrome (best performance)
+- Firefox ESR
 
-Develop Version:
+## Installation
 
-```html
-<script src="https://sgratzl.github.io/lineupengine_docs/develop/lineupengine.min.js"></script>
+```sh
+npm install lineupengine
 ```
 
-Usage
------
+```html
+<script src="https://lineupengine.js.org/main/lineupengine.js"></script>
+```
+
+### Develop Version:
+
+```sh
+npm install lineupengine@next
+```
+
+```html
+<script src="https://lineupengine.js.org/develop/lineupengine.js"></script>
+```
+
+## Usage
 
 **TODO**
 
+## API Documentation
 
-API Documentation
------------------
+see [Main API documentation](https://lineupengine.js.org/main/docs) and [Develop API documentation](https://lineupengine.js.org/develop/docs)
 
-see [Develop API documentation](https://sgratzl.github.io/lineupengine_docs/develop/docs)
+## Development Environment
 
-Demos
------
-
-see [Develop Demo](https://sgratzl.github.io/lineupengine/develop_docs/demo)
-
-
-Development Environment
------------------------
-
-**Installation**
-
-```bash
-git clone https://github.com/sgratzl/lineupengine.git
+```sh
+git clone https://github.com/lineupjs/lineupengine.git
 cd lineupengine
-npm install
+
+npm i -g yarn
+yarn set version latest
+cat .yarnrc_patch.yml >> .yarnrc.yml
+yarn install
+yarn pnpify --sdk vscode
 ```
 
-**Build distribution packages**
+### Common commands
 
-```bash
-npm run build
+```sh
+yarn clean
+yarn compile
+yarn test
+yarn lint
+yarn fix
+yarn build
+yarn docs
+yarn release
+yarn release:pre
 ```
 
-**Run Linting**
-
-```bash
-npm run lint
-```
-
-
-**Watch file changes**
-
-```bash
-npm run watch
-```
-
-Notes
------
+## Notes
 
 ```
 firefox max DOM height: 17.800.000px < 17899999px
@@ -84,5 +80,5 @@ edge:    3.033.917px height
 [npm-url]: https://npmjs.org/package/lineupengine
 [mit-image]: https://img.shields.io/badge/License-MIT-yellow.svg
 [mit-url]: https://opensource.org/licenses/MIT
-[ci-image]: https://circleci.com/gh/lineupjs/lineupengine.svg?style=shield
-[ci-url]: https://circleci.com/gh/lineupjs/lineupengine
+[github-actions-image]: https://github.com/lineupjs/lineupengine/workflows/ci/badge.svg
+[github-actions-url]: https://github.com/lineupjs/lineupengine/actions
